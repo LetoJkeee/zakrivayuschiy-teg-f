@@ -36,19 +36,21 @@
   outline: 2px solid rgba(0, 0, 0, 1);
   font-family: var(--PressStart2P-Regular-alternative-font), sans-serif;
   text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--bg-color);
 }
 
 .header-title {
   font-size: clamp(49px, 4dvw, 65px);
 }
 
-.header-text {
+.header__title-text {
   font-size: clamp(14px, 2dvw, 23px);
 }
 
 .main {
   display: flex;
+  flex-direction: column;
   gap: 52px;
   margin: 0 370px;
+  font-family: var(--Inter-Variable-main-font);
 }
