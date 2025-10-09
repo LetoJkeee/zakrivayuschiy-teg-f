@@ -13,4 +13,13 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  background-image: repeating-linear-gradient(to right, #d3d3d3 , rgb(211 211 211 / 0) 2px 2px),
+                    repeating-linear-gradient(to bottom, #d3d3d3 , rgb(211 211 211 / 0) 2px 2px),
+                    repeating-linear-gradient(to bottom, #e7e7e7, #e7e7e7 0.01%, #1a1a1a 100%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
+
+
