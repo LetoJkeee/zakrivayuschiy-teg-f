@@ -1,12 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --bg-image: repeating-linear-gradient(to right, #d3d3d3 , rgb(211 211 211 / 0) 2px 4px),
-              repeating-linear-gradient(to bottom, #d3d3d3 , rgb(211 211 211 / 0) 2px 4px),
-              linear-gradient(to bottom, #e7e7e7, #e7e7e7 0.01%, #1a1a1a 100%);
+  --bg-image: repeating-linear-gradient(to right, #d3d3d3, rgb(211 211 211 / 0) 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3, rgb(211 211 211 / 0) 2px 4px),
+    linear-gradient(to bottom, #e7e7e7, #e7e7e7 0.01%, #1a1a1a 100%);
   --bg-color: rgba(255, 255, 255, 1);
   --text-color: rgba(0, 0, 0, 1);
   --PressStart2P-Regular-alternative-font: 'PressStart2P-Regular';
   --Inter-Variable-main-font: 'Inter-Variable';
+  --block-size: clamp(375px, 100dvw, 700px);
   --wgh-title: 715;
   --wgh-card: 410;
 }
