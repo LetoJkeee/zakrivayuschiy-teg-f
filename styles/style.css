@@ -22,6 +22,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: var(--Inter-Variable-main-font), sans-serif;
+  font-variation-settings: "wght" var(--wgh-title);
 }
 
 .header {
@@ -52,5 +53,22 @@
   flex-direction: column;
   gap: 52px;
   margin: 0 370px;
-  font-family: var(--Inter-Variable-main-font);
+}
+
+.article {
+  inline-size: clamp(375px, 41dvw, 700px);
+}
+
+.article__title {
+
+}
+
+.article__image {
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
+}
+
+.article__text {
+  font-variation-settings: "wght" var(--wgh-card);
 }
