@@ -7,7 +7,7 @@
   --text-color: rgba(0, 0, 0, 1);
   --PressStart2P-Regular-alternative-font: 'PressStart2P-Regular';
   --Inter-Variable-main-font: 'Inter-Variable';
-  --block-size: clamp(375px, 100dvw, 700px);
+  --block-size: clamp(320px, 208.36px + 34.14vw, 700px);
   --wgh-title: 715;
   --wgh-card: 410;
 }
