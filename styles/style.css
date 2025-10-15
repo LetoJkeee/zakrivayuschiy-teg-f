@@ -173,6 +173,8 @@
   font-weight: 400;
   line-height: 90%;
   position: relative;
+  mix-blend-mode: difference;
+  color: var(--text-color-alternative);
 }
 
 .footer {
@@ -182,6 +184,13 @@
   margin-block-end: 100px;
   justify-content: center;
   align-items: center;
+}
+
+
+.footer__button .footer-floppy  {
+  position: relative;
+  color: var(--text-color-alternative);
+  mix-blend-mode: difference;
 }
 
 .footer__button {
