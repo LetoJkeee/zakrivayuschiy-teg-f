@@ -71,12 +71,13 @@
   font-weight: 715;
   font-size: inherit;
   padding: 6px 12px;
+  text-align: left;
 }
 
 .article__paragraph {
   display: grid;
   gap: 25px;
-  padding: 21px 27px 27px;
+  padding: 21px 27px 26px;
 }
 
 .article__image-container {
@@ -117,6 +118,7 @@
   background-color: var(--bg-color);
   line-height: 21px;
   font-weight: 410;
+  text-align: left;
 }
 
 .article__buttons {
@@ -125,6 +127,7 @@
   justify-content: end;
   align-items: center;
   padding-inline-end: 2px;
+  margin-block-start: 1px;
 }
 
 .card__like-button {
@@ -167,7 +170,6 @@
   padding: 0;
   border: none;
   outline: 2px solid transparent;
-  padding-block-start: 1px;
   height: 36px;
   transition: outline 0.3s ease;
 }
