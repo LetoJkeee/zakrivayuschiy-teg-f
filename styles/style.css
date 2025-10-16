@@ -402,6 +402,13 @@
     min-inline-size: 375px;
   }
 
-  .main {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 34.5px 100px;
+  }
+
+  .footer__button {
+   flex-direction: column;
   }
 }
