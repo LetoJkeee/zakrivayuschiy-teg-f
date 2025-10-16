@@ -271,6 +271,7 @@
   outline: 2px solid var(--brd-color);
   background-color: var(--bg-color);
   top: 319px;
+  right: 0;
   padding: 27px 30px;
   width: 353px;
   height: 185px;
@@ -390,4 +391,9 @@
 
 .like-icon.is-liked .sparks {
   animation: sparks 0.3s 0.3s ease-in 1;
+}
+
+
+@media (width <= 375px) {
+
 }
