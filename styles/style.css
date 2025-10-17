@@ -37,7 +37,7 @@
   text-transform: uppercase;
   background-color: var(--bg-color);
   padding: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem) 0;
-  margin-block-start: 100px;
+  margin-block-start: 99px;
   margin-block-end: 98px;
 }
 
@@ -94,7 +94,7 @@
 
 .article__buttons {
   display: flex;
-  column-gap: 8px;
+  column-gap: 7px;
   justify-content: end;
   align-items: center;
 }
