@@ -2,8 +2,8 @@
 @font-face {
   font-display: swap;
   font-weight: 400;
-  font-family: 'PressStart2P-Regular';
-  src: local('PressStart2P-Regular'),
+  font-family: 'PressStart2P';
+  src: local('PressStart2P'),
     url(./PressStart2P-Regular.woff) format('woff');
 }
 
