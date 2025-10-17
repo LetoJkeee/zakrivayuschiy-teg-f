@@ -418,4 +418,9 @@
     width: 28px;
     height: 28px;
   }
+
+  .dialog[open] {
+    padding: 27px 40px;
+    top: 512px;
+  }
 }
