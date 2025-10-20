@@ -81,7 +81,7 @@
 .article__paragraph {
   display: grid;
   gap: 25px;
-  padding: 25px 26px 26px 26px;
+  padding: 25px 26px 26px;
 }
 
 .article__paragraph-text {
@@ -160,10 +160,6 @@
   padding: 7px 0;
 }
 
-.card__like-button:hover {
-  cursor: pointer;
-}
-
 .button {
   position: relative;
   background-color: var(--bg-color);
@@ -185,13 +181,22 @@
   transform-origin: 0 0;
 }
 
+.button:hover {
+  cursor: pointer;
+}
 
-.card__like-button:hover::before {
+.button:hover::before {
   transform: scaleX(1);
 }
 
-.card__like-button:focus {
+.button:focus {
   box-shadow: 2px 2px currentColor;
+  outline: none;
+}
+
+.button:focus-visible {
+  box-shadow: 2px 2px currentColor;
+  outline: none;
 }
 
 .card__icon-button {
@@ -241,14 +246,6 @@
   padding: 17px 20px;
 }
 
-.container__button:hover::before {
-  transform: scaleX(1);
-}
-
-.container__button:focus {
- box-shadow: 2px 2px currentColor;
-}
-
 .dialog[open] {
   display: flex;
   flex-direction: column;
@@ -280,14 +277,6 @@
   inline-size: 100%;
   text-transform: uppercase;
   padding: 9px 0;
-}
-
-.dialog__button:hover::before {
-  transform: scaleX(1);
-}
-
-.dialog__button:focus {
-  box-shadow: 2px 2px currentColor;
 }
 
                     /*  СЕРДЦЕ   */
